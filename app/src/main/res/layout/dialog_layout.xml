@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_margin="32dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"
+            android:textSize="15sp"
+            android:text="@string/dialog_layout_navn" />
+
+        <TextView
+            android:id="@+id/marker_navn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:textSize="18sp"
+            android:text="@string/marker_navn_placeholder" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"
+            android:textSize="15sp"
+            android:text="@string/dialog_layout_adresse" />
+
+        <TextView
+            android:id="@+id/marker_addresse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:textSize="18sp"
+            android:text="@string/marker_adresse_placeholder" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"
+            android:textSize="15sp"
+            android:text="@string/dialog_layout_liker" />
+
+        <TextView
+            android:id="@+id/marker_liker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:textSize="18sp"
+            android:text="@string/marker_liker_placeholder" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"
+            android:textSize="15sp"
+            android:text="@string/dialog_layout_beskrivelse" />
+
+        <TextView
+            android:id="@+id/marker_beskrivelse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:textSize="18sp"
+            android:text="@string/marker_beskrivelse_placeholder" />
+
+        <TextView
+            android:id="@+id/marker_kordinater"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/marker_kordinater_placeholder" />
+
+    </LinearLayout>
+
+</ScrollView>
